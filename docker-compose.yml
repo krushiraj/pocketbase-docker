@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  pocketbase:
+    build: .
+    ports:
+      - 127.0.0.1:8090:8090
