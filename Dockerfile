@@ -21,7 +21,6 @@ RUN unzip pocketbase*.zip -d /pocketbase
 WORKDIR /pocketbase
 RUN chmod +x ./pocketbase
 RUN rm /pocketbase*.zip
-COPY pb_data ./pb_data
 
 # Notify Docker that the container wants to expose a port.
 EXPOSE 8090
